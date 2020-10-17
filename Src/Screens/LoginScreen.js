@@ -17,9 +17,9 @@ class LoginScreen extends React.Component {
     super(props);
     this.state =
     {
-      url: "user.techno.com",
-      userName: "practical@gmail.com",
-      password: "user@123",
+      url: "",
+      userName: "",
+      password: "",
       isRemember: true,
       isAcceeptTermsAndCond: true
     }
